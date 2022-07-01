@@ -1,6 +1,6 @@
 # include <stdlib.h>
-# include <stdio.h>
-#include <time.h>
+# include <time.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
@@ -28,5 +28,6 @@ int main(void)
 	else 
 	{
 		printf("less than 6 and not 0\n");
+	}
 	return (0);
 }
