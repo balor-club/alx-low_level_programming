@@ -31,7 +31,6 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
-					t = tens + 1;
 				}
 				o = '0';
 			}
