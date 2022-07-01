@@ -1,7 +1,7 @@
 # include <stdio.h>
 
 /**
- * main - prints all possible combinations of two two-digit numbers.
+ * main - prints a num pair from 00-99 with no repeats
  * Return: Always (0) Success
  */
 
@@ -31,6 +31,7 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
+					t = tens + 1;
 				}
 				o = '0';
 			}
