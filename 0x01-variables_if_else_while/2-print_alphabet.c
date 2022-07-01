@@ -1,14 +1,21 @@
 # include <stdio.h>
-# include <stdlib.h>
+
+/*
+ * main - print lowercase a-z
+ *
+ * Return: Always (0) Success
+ */
 
 int main(void)
 {
-	/* local variable definition */
-	char ch
+	char alpha = 'a';
 
-	for(ch = 'a' ; ch <= 'z' ; ch++) 
+	while (alpha <= 'z')
 	{
-		putchar(ch);
+		putchar(alpha);
+		alpha++;
 	}
+	putchar('\n');
+
 	return (0);
 }
