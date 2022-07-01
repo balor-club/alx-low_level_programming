@@ -21,7 +21,7 @@ int main(void)
 		printf("%d is zero\n", n);
 	} else 
 	{
-		 /* if none of the conditions is true */
+       		/* if none of the conditions is true */
 		printf("%d is negative\n", n);
 	}
 
