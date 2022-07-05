@@ -7,20 +7,17 @@
  * Return: Always (0) Success
  */
 
-int void print_alphabet_x10(void);
+int void print_alphabet_x10(void)
 {
-	char alpha;
+	char i;
+	char h;
 
-	for (alpha = 'a'; alpha <= 'z'; apha++)
+	for (h = 0; h <= 9; h++)
 	{
-		putchar(alpha);
+		for (i = 'a'; i <= 'z'; i++)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
 	}
-}
-
-int main()
-{
-	repeat ('alpha', 10);
-	putchar('\n');
-
-	return (0);
 }
