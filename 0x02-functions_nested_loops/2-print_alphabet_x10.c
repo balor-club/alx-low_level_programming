@@ -2,7 +2,7 @@
 # include <stdlib.h>
 
 /**
- * main - prints a-z ten times
+ * print_alphabet_x10 - prints a-z ten times
  *
  * Return: Always (0) Success
  */
