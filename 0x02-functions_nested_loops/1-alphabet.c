@@ -1,5 +1,5 @@
 # include <stdio.h>
-# include <main.h>
+# include "main.h"
 
 /**
  * main - print alphabet in lowercase
@@ -9,7 +9,7 @@
 
 void print_alphabet(void)
 {
-	char alpha = 'a';
+	char alpha;
 	
 	while (alpha <= 'z')
 	{
