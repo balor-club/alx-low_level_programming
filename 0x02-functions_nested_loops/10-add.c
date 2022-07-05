@@ -1,7 +1,7 @@
-# include <main.h>
+# include "main.h"
 
 /**
- * main - adds two integers
+ * add - adds two integers
  *
  * Return: Always (0)
  */
