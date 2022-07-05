@@ -8,14 +8,5 @@
 
 int add(int a, int b)
 {
-	int a;
-	int b;
-	int n;
-
-	for (n = a + b);
-	{
-		printf("%d\n", n);
-	}
-
-	return (0);
+	return (a + b);
 }
