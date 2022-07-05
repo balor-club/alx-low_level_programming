@@ -3,7 +3,7 @@
 /**
  * add - adds two integers
  *
- * Return: Always (0)
+ * Return: sum of integers
  */
 
 int add(int a, int b)
