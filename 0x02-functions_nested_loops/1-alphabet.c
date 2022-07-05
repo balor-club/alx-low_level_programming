@@ -7,9 +7,9 @@
  * Return: Always (0) Success
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	int char alpha = 'a';
+	char alpha = 'a';
 	
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 		putchar(alpha);
