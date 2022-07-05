@@ -1,5 +1,4 @@
-# include <stdio.h>
-# include <stdlib.h>
+# include "main.h"
 
 /**
  * print_alphabet_x10 - prints a-z ten times
