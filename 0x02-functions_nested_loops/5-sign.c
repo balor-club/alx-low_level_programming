@@ -1,8 +1,7 @@
-# include <stdio.h>
-# include <stdlib.h>
+# include "main.h"
 
 /**
- * main - checks the code
+ * print_sign - prints the sign of a number
  *
  * Return: 1 if greater than zero. 0 if zero. -1 if less than zero
  */
