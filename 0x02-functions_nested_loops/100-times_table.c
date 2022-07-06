@@ -16,7 +16,29 @@ void print_times_table(int n)
 		for (b = 0; b <= n; b++)
 		{
 			 v = a * b;
-			 if (z > 99)
+			 if (v > 99)
 			 {
-				 _putchar(z / 100 + '0');
-				 _putchar((z / 10 + '0');
+				 _putchar(v / 100 +'0');
+				 _putchar((v / 10 % 10) + '0');
+				 _putchar(v % 10 + '0');
+			 }
+			 else if (v > 9)
+			 {
+				 _putchar(' ');
+				 _putchar(v / 10 + '0');
+				 _putchar(v % 10 +'0');
+			 }
+			 else
+			 {
+				 _putchar(v = '0');
+			 }
+			 if (b != n)
+			 {
+				 _putchar(',');
+				 _putchar(' ');
+			 }
+		}
+		_putchar('\n');
+		a++
+	}
+}
