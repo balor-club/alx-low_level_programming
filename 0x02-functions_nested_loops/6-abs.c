@@ -1,16 +1,14 @@
-# include <stdio.h>
-# include <stdlib.h>
+# include "main.h"
 
 /**
- * main - absolute value of an integer
+ * _abs - absolute value of an integer
+ * @r: The integer
  *
  * Return: Always (0)
  */
 
-int _abs(int)
+int _abs(int r)
 {
-	int r;
-
 	if (r < 0)
 	{
 		r = (-1) * r
