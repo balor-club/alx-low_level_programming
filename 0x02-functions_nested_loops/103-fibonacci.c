@@ -10,7 +10,7 @@
 int main(void)
 {
 	int c;
-	long int i, j, k;
+	int i, j, k;
 
 	i = 1;
 	j = 2;
@@ -19,7 +19,7 @@ int main(void)
 	while (j < 4000000)
 	{
 		if (j % 2 == 0)
-			total +=j;
+			k += j;
 
 		c = j;
 		j += i;
