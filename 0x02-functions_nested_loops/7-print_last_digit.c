@@ -1,10 +1,9 @@
-# include <stdio.h>
-# include <stdlib.h>
-
+# include "main.h"
 /**
- * main - prints last digit of a number
+ * print_last_digit - prints last digit of a number
+ * @nv: An integer
  *
- * Return: Always (0)
+ * Return: Last digit of the number
  */
 
 int print_last_digit(int)
