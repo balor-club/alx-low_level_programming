@@ -1,7 +1,7 @@
-# include <stdio.h>
+# include "main.h"
 
 /**
- * main - 9 times table
+ * times_table - 9 times table
  *
  * Return: Always (0)
  */
