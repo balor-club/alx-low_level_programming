@@ -1,7 +1,7 @@
 # include "main.h"
 
 /**
- * _islower - check the code
+ * _islower - shows 1 if input is lowercase, 0 if otherwise
  * @c: The character in ASCII code
  * Return - (1) if c is lowercase; else (0)
  */
