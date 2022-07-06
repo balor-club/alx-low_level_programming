@@ -18,7 +18,7 @@ int main(void)
 	for (c = 0; c < 48; c++)
 	{
 		k = i + j;
-		printf("%ld", k);
+		printf(", %ld", k);
 		i = j;
 		j = k;
 	}
