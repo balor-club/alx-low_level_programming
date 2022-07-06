@@ -1,10 +1,10 @@
-# include <stdio.h>
-# include <stdlib.h>
+# include "main.h"
 
 /**
- * main - check code
+ * _isalpha - checks for alphabetic character
  * @c: The character in ASCII code
- * Return - 1 if 'c' is a letter; else 0
+ *
+ * Return: 1 if 'c' is a letter; else 0
  */
 
 int _isalpha(int c)
