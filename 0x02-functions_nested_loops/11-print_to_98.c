@@ -1,20 +1,26 @@
 # include "main.h"
+# include <stdio.h>
 
 /**
  * print_to_98 - prints all natural numbers
- *
- * Return: (0)
+ * @n: Number passed to function
  */
 
 void print_to_98(int n)
 {
-	for (n <= 98; n++)
+	if (n > 98)
 	{
-		_putchar(n);
+		for (; n > 98; n--)
+		{
+			printf("%d, ", n);
+		}
 	}
-	_putchar(',');
-	_putchar(' ');
-	_putchar('\n');
-
-	return (0);
+	else if (n < 98)
+	{
+		for (; n < 98; n++)
+		{
+			printf("%d, ", n);
+		}
+	}
+	print("%d\n", n);
 }
