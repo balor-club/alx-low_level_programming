@@ -1,8 +1,7 @@
-# include <stdio.h>
-# include <stdlib.h>
+# include "main.h"
 
 /**
- * main - print every minute of the day
+ * jack_bauer - print every minute of the day
  *
  * Return: Always (0)
  */
