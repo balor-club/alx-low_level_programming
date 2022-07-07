@@ -5,6 +5,7 @@
  * @a: Integer
  * @b: Integer
  *
+ * Return: Multiplication
  */
 
 int mul(int a, int b)
