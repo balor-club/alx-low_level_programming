@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - prints numbers followed by a new line
- * @c: Character
+ * @ch: Character
  * ASCII numbers
  *
  */
