@@ -1,7 +1,7 @@
 # include "main.h"
 
 /**
- * more numbers - prints numbers 0-14 ten times
+ * more_numbers - prints numbers 0-14 ten times
  *
  */
 
