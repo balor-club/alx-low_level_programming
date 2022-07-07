@@ -2,8 +2,6 @@
 
 /**
  * print_numbers - prints numbers followed by a new line
- * @ch: Character
- * ASCII numbers
  *
  */
 
