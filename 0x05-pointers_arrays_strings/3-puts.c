@@ -1,4 +1,5 @@
 # include "main.h"
+#include "2-strlen.c"
 
 /**
  * _puts - prints a string
@@ -8,16 +9,11 @@
 
 void _puts(char *str)
 {
-	int count = 0;
+	int i;
 
-	while (count >= 0)
+	for (i = 0; *(str + i) != '\0'; i++)
 	{
-		if (str[count] == '\n')
-		{
-			_putchar('\n');
-			break;
-		}
-		_putchar(str[count]);
-		count++;
+		_putchar(*(str + i));
 	}
+	_putchar('\n');
 }
