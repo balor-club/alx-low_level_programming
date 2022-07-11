@@ -1,5 +1,5 @@
-# include "main.h"
-#include "2-strlen.c"
+# include "main.h"i
+# include <stdio.h>
 
 /**
  * print_array - prints n elements of an array of integers
@@ -12,7 +12,7 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = o; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("%d", a[i]);
 		if (i != n - 1)
