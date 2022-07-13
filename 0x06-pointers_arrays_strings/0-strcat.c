@@ -14,5 +14,8 @@ char *_strcat(char *dest, char *src)
 	strcat(dest, src);
 
 	_putchar("dest");
+	_putchar("");
 	_putchar('\n');
+
+	return (0);
 }
