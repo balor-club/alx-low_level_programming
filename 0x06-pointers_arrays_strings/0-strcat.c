@@ -6,16 +6,21 @@
  * @dest: Destination string
  * @src: Source string
  *
- * Return: (0) Success
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	strcat(dest, src);
+	int len, _len, i;
 
-	_putchar("dest");
-	_putchar("");
-	_putchar('\n');
+	i = 0;
+	len = strlen(src);
+	_len = strlen(dest);
 
-	return (0);
+	for (i = 0; i < len; i++)
+	{
+		dest[_len + i] = src[i];
+	}
+	
+	return (dest);
 }
