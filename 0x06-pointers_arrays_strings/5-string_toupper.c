@@ -4,15 +4,20 @@
 /**
  * *string_toupper - changes all lowercase letters to uppercase
  *
- * @*: String
- * Return: (none);
+ * @s: String
+ * Return: pointer to dest
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
-	int i;
-	int length = strlen(*);
+	int count = 0;
 
-	for (i = 0; i < length; i++)
-		*[i] = toupper(*[i]);
+	while (*(s + count) != '\0')
+	{
+		if ((*(s + count) >= 97) && (*(s + count) <= 122))
+			*(s + count) = *(s + count) - 32;
+		count++;
+	}
+
+	return (s);
 }
