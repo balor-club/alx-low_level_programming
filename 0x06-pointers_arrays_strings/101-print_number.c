@@ -17,7 +17,7 @@ void print_number(int n)
 		_putchar(45);
 		m = n * -1;
 	}
-	else 
+	else
 	{
 		m = n;
 	}
