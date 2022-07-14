@@ -6,22 +6,20 @@
  * @a: An array of integers
  * @n: Number of elements in the array
  *
- * Return: (0)
+ * Return: None
  */
 
 void reverse_array(int *a, int n)
 {
-	int i;
-	int temp = 0;
+	int i, j, temp;
 
-	for (i = 0; i < n / 2; i++)
+	for (i = 0; i < n - 1; i++)
 	{
-		temp = a[i];
-		a[i] = a[n - i - 1];
-		a[n - i - 1] = temp;
+		for (j = i + 1; j > 0; j--)
+		{
+			temp = *(a + j);
+			*(a + j) = *(a + (j - 1));
+			*(a + (j - 1)) = temp;
+		}
 	}
-	for (int i = 0; i < length; i++)
-		_putchar(a[i]);
-
-	return (0);
 }
