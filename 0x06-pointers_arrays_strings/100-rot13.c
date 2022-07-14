@@ -12,7 +12,7 @@ char *rot13(char *s)
 {
 	int count = 0, i;
 	int alphabet[] = {abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ};
-	int rot13[] ={nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM};
+	int rot13[] = {nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM};
 
 	while (*(s + count) != '\0')
 	{
