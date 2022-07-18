@@ -10,20 +10,20 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i, j, pre;
+	unsigned int i, j, bool;
 
 	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		pre = 1;
-		for (j = 0; *(j + accept) != '\0'; j++)
+		bool = 1;
+		for (j = 0; *(accept + j) != '\0'; j++)
 		{
 			if *(s + i) == *(j + accept)
 			{
-				pre = 0;
+				bool = 0;
 				break;
 			}
 		}
-		if (pre == 1)
+		if (bool == 1)
 			break;
 	}
 	return (i);
