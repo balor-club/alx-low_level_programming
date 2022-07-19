@@ -1,7 +1,8 @@
 # include <stdio.h>
 
 /**
- * main - prints a num pair from 00-99 with no repeats
+ * main - prints pairs from 00-99 with no repeats
+ *
  * Return: Always (0) Success
  */
 
