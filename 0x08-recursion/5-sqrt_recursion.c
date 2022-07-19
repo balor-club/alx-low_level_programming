@@ -8,7 +8,7 @@
  * Return: Square root of a number
  */
 
-int power_operation( int n, int c)
+int power_operation(int n, int c)
 {
 	if (c % (n / c) == 0)
 	{
