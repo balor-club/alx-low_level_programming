@@ -5,10 +5,10 @@
  * @n: Input number
  * @c: Root number
  *
- * Return: Sqquare root of a number
+ * Return: Square root of a number
  */
 
-int Power_operation( int n, int c)
+int power_operation( int n, int c)
 {
 	if (c % (n / c) == 0)
 	{
