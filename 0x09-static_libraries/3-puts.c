@@ -1,19 +1,3 @@
-# include "main.h"
-#include "2-strlen.c"
-
-/**
- * _puts - prints a string
- * @str: string
- *
- */
-
-void _puts(char *str)
+void _puts(char *s)
 {
-	int i;
-
-	for (i = 0; *(str + i) != '\0'; i++)
-	{
-		_putchar(*(str + i));
-	}
-	_putchar('\n');
 }
