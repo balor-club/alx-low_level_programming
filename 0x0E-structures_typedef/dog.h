@@ -1,5 +1,4 @@
-# include <stdio.h>
-# include <stdlib.h>
+typedef struct dog dog_t;
 
 /**
  * struct dog - declares types
