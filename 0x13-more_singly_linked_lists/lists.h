@@ -2,12 +2,25 @@
 # include <stdlib.h>
 # include <string.h>
 
+/**
+ * struct listint_s - singly linked list
+ * @n:integer
+ * @next: points to the next node
+ *
+ */
+
 typedef struct listint_s
 {
 	int n;
 	struct listint_s *next;
 }listint_t;
 
+/**
+ * struct listp_s - singly linked list
+ * @p: pointer
+ * @next: points to next node
+ *
+ */
 
 typedef struct listp_s
 {
