@@ -17,12 +17,12 @@ listint_t *reverse_listint(listint_t **head)
 
 	if (head != 0)
 	{
-		p = (*head)->next;
-		(*head)->next = n;
-		n = *head;
-		*head = p;
+		n = (*head)->next;
+		(*head)->next = p;
+		p = *head;
+		*head = n;
 	}
 
-	*head = n;
+	*head = p;
 	return (*head);
 }
