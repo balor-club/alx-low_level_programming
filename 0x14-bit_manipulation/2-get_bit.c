@@ -1,27 +1,25 @@
 # include "main.h"
 
 /**
- * get_bit - returns value of a bit
+ * get_bit - returns the value of a bit
+ * @n: unsigned long int
  * @index: index
- * @n: bit given
  *
- * Return: Value of the bit
+ * Return: Value of a bit
  */
 
 int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned int i;
+	unsigned int mask = 0;
+	unsigned int bit = sizeof(n) * 8 - 1;
 
-	if (n == 0 && index < 64)
+	if (index < bit)
+		return (-1);
+
+	mask = mask << index;
+
+	if (n & mask)
+		return (1);
+	else
 		return (0);
-
-
-	for (i = 0; i <= 63; n >>= 1; i++)
-	{
-		if (index == i)
-		{
-			return (n & 1);
-		}
-	}
-	return (-1);
 }
