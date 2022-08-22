@@ -2,7 +2,7 @@
 #define _MAIN_
 
 # include <stdio.h>
-# include <stdilib.h>
+# include <stdlib.h>
 # include <sys/types.h>
 # include <sys/stat/h>
 # include <fcntl.h>
