@@ -1,5 +1,5 @@
-#ifndef _DOG_H_
-#define _DOG_H_
+#ifndef DOG_H_
+#define DOG_H_
 
 /**
  * struct dog - declares types
@@ -7,7 +7,7 @@
  * @age: age of dog
  * @owner: owner of dog
  *
- * Description: struct called "dog" that stores its name, its age
+ * Description: struct that stores its name, its age
  * and name of owner
  *
  */
