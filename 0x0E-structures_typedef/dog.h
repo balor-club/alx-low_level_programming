@@ -5,7 +5,7 @@
  * dog_t - typedef for structdog
  */
 
-typedef struct dog;
+typedef struct dog dog_t;
 
 /**
  * struct dog - declares types
