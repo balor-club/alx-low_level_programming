@@ -5,7 +5,7 @@
  * @head: head of list
  * @index: index of node to be deleted
  *
- * Return: i if succes, -1 if fail
+ * Return: 1 if succes, -1 if fail
  */
 
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
@@ -41,7 +41,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 			}
 
 			free(h1);
-			return (h1);
+			return (1);
 		}
 
 		h2 = h1;
